@@ -66,6 +66,7 @@ color: navy;
  
 #mywork{
     margin-left: 100px;
+    margin-right: 100px;
 }
 .work{
     background-color: #eeeee6; 
@@ -75,7 +76,7 @@ color: navy;
     display: flex;
     justify-content:space-between;
     flex-direction: column;
-    padding-left: 100px;
+    padding-left: 90px;
     padding-right: 90px;
     font-family: 'poppins';
     font-size:45pt;
@@ -154,4 +155,41 @@ color: navy;
 }
 #icons{
     height: 10vh;
+}
+
+.aboutme{
+    text-align: center;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction:column;
+    font-size: 20pt;
+    margin: 60px;
+}
+#aboutme-title{
+    text-align: center;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction:column;
+    font-size: 40pt;
+    margin: 60px;
+    color: #f1a400;
+
+}
+
+#profilepic{
+    height: 40vh;
+    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#selfpics{
+    display: flex;
+    height: 40vh;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content:center;
+
 }
