@@ -193,3 +193,32 @@ color: navy;
     justify-content:center;
 
 }
+
+#case-study-body{
+    font-size: 18pt;
+    font-family: 'poppins';
+    background-color: black;
+}
+
+#projectcover{
+    text-align: left;
+    font-family: 'poppins';
+    display: flex;
+    background-color: navy;
+    color: white;
+}
+
+#projectintro{
+    text-align: left;
+    font-family: 'poppins';
+    display: flex;
+    flex-direction:column;
+    font-size: 18pt;
+    margin: 60px;
+    padding-left: 8%;
+    padding-top: 2%;
+}
+#app-articles{
+    height: 90vh;
+    padding-right: 8%;
+}
