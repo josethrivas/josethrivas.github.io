@@ -72,14 +72,14 @@ color: navy;
     background-color: #eeeee6; 
     height: 100%;
     margin: 0px;
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content:space-between;
     flex-direction: column;
     padding-left: 90px;
     padding-right: 90px;
     font-family: 'poppins';
-    font-size:45pt;
+    font-size:40pt;
 }
 #case1{
     background-color: navy;
@@ -89,7 +89,7 @@ color: navy;
 }
 .casestudy{
     background-color: lightseagreen;
-    margin: 25px;
+    margin: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -98,8 +98,8 @@ color: navy;
     align-items: center;
     align-content: center;
     border-radius: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
     font-size: 25px;
     color: white;
 }
@@ -126,14 +126,14 @@ color: navy;
 
   }
 #doeimage{
-    height: 90%;
+    height: 80%;
 }
 
 #travelappimage{
-    height: 90%;
+    height: 80%;
 }
 #abilisimage{
-    height: 90%;
+    height: 80%;
 }
 
 
@@ -158,20 +158,20 @@ color: navy;
 }
 
 .aboutme{
-    text-align: center;
+    text-align: left;
     font-family: 'poppins';
     display: flex;
     flex-direction:column;
     font-size: 20pt;
-    margin: 60px;
+    margin: 200px;
 }
 #aboutme-title{
-    text-align: center;
+  text-align: left;
     font-family: 'poppins';
     display: flex;
     flex-direction:column;
     font-size: 40pt;
-    margin: 60px;
+    margin-left: 150px;
     color: #f1a400;
 
 }
