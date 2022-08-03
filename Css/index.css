@@ -162,16 +162,17 @@ color: navy;
     font-family: 'poppins';
     display: flex;
     flex-direction:column;
-    font-size: 20pt;
-    margin: 200px;
+    font-size: 18pt;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 #aboutme-title{
-  text-align: left;
+    text-align: left;
     font-family: 'poppins';
     display: flex;
     flex-direction:column;
     font-size: 40pt;
-    margin-left: 150px;
+    padding-left: 150px;
     color: #f1a400;
 
 }
