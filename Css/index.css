@@ -24,7 +24,7 @@ header{
     background-color: white;
     font-family: 'Poppins';
     border: 0px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .headerbuttons:hover {
     text-decoration: underline #f1a400 4px;
@@ -40,8 +40,8 @@ header{
 }
 
 #heropic{
-    height: 400px;
-    width: 414x;
+    height: 300px;
+    width: 314x;
   
 }
 
@@ -51,16 +51,16 @@ header{
     margin-left: 50px;
 
 }
+
 #hellothere{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 80px;
+font-size: 40px;
 color: navy;
 }
 
 #p-intro{
     font-family: 'poppins';
-    font-size:25px;
-    line-height: 50px;
+    font-size:20px;
     
 }
  
@@ -105,7 +105,7 @@ color: navy;
 }
 
 .titles{
-    font-size: 50px;
+    font-size: 35px;
 }
 
 .viewcase{
@@ -125,14 +125,9 @@ color: navy;
     
 
   }
-#doeimage{
-    height: 80%;
-}
 
-#travelappimage{
-    height: 80%;
-}
-#abilisimage{
+
+.images{
     height: 80%;
 }
 
@@ -163,18 +158,16 @@ color: navy;
     display: flex;
     flex-direction:column;
     font-size: 18pt;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
-#aboutme-title{
+.page-title{
     text-align: left;
     font-family: 'poppins';
     display: flex;
     flex-direction:column;
-    font-size: 40pt;
-    padding-left: 150px;
-    color: #f1a400;
-
+    font-size: 30pt;
+    padding-left: 10%;
 }
 
 #profilepic{
@@ -223,3 +216,163 @@ color: navy;
     height: 90vh;
     padding-right: 8%;
 }
+
+.work-section{
+    display: grid;
+    grid-template-rows: 60vh 60vh 60vh;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "case-study-1"
+    "case-study-2"
+    "case-study-3"
+    ;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+.case-study-1{
+    background-color:navy;
+}
+
+.case-study-2{
+    background-color: #f1a400;
+}
+
+.case-study-3{
+    background-color: lightseagreen;
+}
+
+.case-study-container{
+    display: flex;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container{
+    width: 50%;
+    color:white;
+    font-family: 'poppins';
+
+}
+
+#hamburger-menu{
+    display:none;
+}
+
+
+@media only screen and (max-width: 800px){
+    .work-section{
+        grid-template-rows: 80vh 80vh 80vh;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "case-study-1"
+        "case-study-2"
+        "case-study-3"
+        ;
+        margin:0;
+    }
+
+    .selfie1-2{
+        display: none;
+    }
+    .introduction{
+        flex-direction: column;
+    }
+    #introtext{
+        width: 90%;
+    }
+    
+    .images{
+        height:50%;
+    }
+
+    #headerlogo{
+        height: 70%;
+    }
+
+    .case-study-container{
+        border-radius: 0px;
+        padding-left: 30px;
+    }
+
+    header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    /* .aboutme{
+        text-align: left;
+        font-family: 'poppins';
+        display: flex;
+        flex-direction:column;
+        font-size: 18pt;
+        padding-left: 10%;
+        padding-right: 10%;
+    } */
+
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .work-section{
+        grid-template-rows: 80vh 80vh 80vh;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "case-study-1"
+        "case-study-2"
+        "case-study-3"
+        ;
+        margin:0;
+    }
+
+    .case-study-container{
+        flex-direction: column-reverse;
+        border-radius: 0px;
+        margin-bottom: 0;
+
+    }
+
+    .images{
+        height:40%;
+    }
+
+    .description-container{
+        width: 90%;
+        text-align:center;
+    }
+
+    .introduction{
+        flex-direction: column;
+    }     
+
+    #heropic{
+        height: 200px;
+        width: 207px;
+    }
+    #introtext{
+        width: 90%;
+    }
+    .headerbuttons{
+        display:none;
+    }
+
+    #headerlogo{
+        height: 70%;
+    }
+
+    header{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #hamburger-menu{
+        display: inline-block;
+        height: 50%;
+    }
+
+}
+
+
