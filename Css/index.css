@@ -257,8 +257,44 @@ color: navy;
 
 }
 
-#hamburger-menu{
-    display:none;
+.hamburger {
+    display: none;
+    z-index: 100;
+}
+
+
+.closeIcon {
+    display: none;
+}
+
+.menu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: white;
+    list-style: none;
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'poppins';
+    font-size: 24px;
+    line-height: 50px;
+}
+a {
+    text-decoration: none;
+}
+
+.menuItem {
+    text-decoration: none;
+    color: black;
+}
+  
+.showMenu {
+    transform: translateY(0);
 }
 
 
@@ -368,11 +404,9 @@ color: navy;
         padding-right: 0px;
     }
 
-    #hamburger-menu{
+    .hamburger {
         display: inline-block;
         height: 50%;
     }
 
 }
-
-
